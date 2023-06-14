@@ -281,6 +281,9 @@ def gui():
 
     message_listbox = Listbox(chat_frame, xscrollcommand=xscrollbar.set, yscrollcommand=yscrollbar.set)
     message_listbox.pack(fill=BOTH, expand=TRUE, padx=4)
+    
+    xscrollbar.config(command=message_listbox.xview)
+    yscrollbar.config(command=message_listbox.yview)
 
     # Create Chat Entry Frame
     entry_frame = Frame(root)
