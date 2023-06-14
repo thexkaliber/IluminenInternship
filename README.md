@@ -1,2 +1,2 @@
-# IluminenInternship
-Illuminen Internship Tasks
+# Iluminen Internship
+Archive of Illuminen Internship Tasks assigned daily. 
